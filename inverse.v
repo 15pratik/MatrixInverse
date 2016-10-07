@@ -926,11 +926,11 @@ begin
 			matrix[11] = 32'h0001_0000;
 			
 			temp64[0] = matrix[22]<<16;
-			temp64[1] = ((matrix[25]<<32)/temp64[0])>>16;
-			temp64[2] = ((matrix[26]<<32)/temp64[0])>>16;
-			temp64[3] = ((matrix[27]<<32)/temp64[0])>>16;
-			temp64[4] = ((matrix[28]<<32)/temp64[0])>>16;
-			temp64[5] = ((matrix[29]<<32)/temp64[0])>>16;
+			temp64[1] = ((matrix[25]<<32)/temp64[0]);
+			temp64[2] = ((matrix[26]<<32)/temp64[0]);
+			temp64[3] = ((matrix[27]<<32)/temp64[0]);
+			temp64[4] = ((matrix[28]<<32)/temp64[0]);
+			temp64[5] = ((matrix[29]<<32)/temp64[0]);
 			
 			matrix[25] = temp64[1];
 			matrix[26] = temp64[2];
@@ -940,11 +940,11 @@ begin
 			matrix[22] = 32'h0001_0000;
 			
 			temp64[0] = matrix[33]<<16;
-			temp64[1] = ((matrix[35]<<32)/temp64[0])>>16;
-			temp64[2] = ((matrix[36]<<32)/temp64[0])>>16;
-			temp64[3] = ((matrix[37]<<32)/temp64[0])>>16;
-			temp64[4] = ((matrix[38]<<32)/temp64[0])>>16;
-			temp64[5] = ((matrix[39]<<32)/temp64[0])>>16;
+			temp64[1] = ((matrix[35]<<32)/temp64[0]);
+			temp64[2] = ((matrix[36]<<32)/temp64[0]);
+			temp64[3] = ((matrix[37]<<32)/temp64[0]);
+			temp64[4] = ((matrix[38]<<32)/temp64[0]);
+			temp64[5] = ((matrix[39]<<32)/temp64[0]);
 			
 			matrix[35] = temp64[1];
 			matrix[36] = temp64[2];
@@ -954,11 +954,11 @@ begin
 			matrix[33] = 32'h0001_0000;
 			
 			temp64[0] = matrix[44]<<16;
-			temp64[1] = ((matrix[45]<<32)/temp64[0])>>16;
-			temp64[2] = ((matrix[46]<<32)/temp64[0])>>16;
-			temp64[3] = ((matrix[47]<<32)/temp64[0])>>16;
-			temp64[4] = ((matrix[48]<<32)/temp64[0])>>16;
-			temp64[5] = ((matrix[49]<<32)/temp64[0])>>16;
+			temp64[1] = ((matrix[45]<<32)/temp64[0]);
+			temp64[2] = ((matrix[46]<<32)/temp64[0]);
+			temp64[3] = ((matrix[47]<<32)/temp64[0]);
+			temp64[4] = ((matrix[48]<<32)/temp64[0]);
+			temp64[5] = ((matrix[49]<<32)/temp64[0]);
 			
 			matrix[45] = temp64[1];
 			matrix[46] = temp64[2];
